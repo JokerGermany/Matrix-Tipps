@@ -11,7 +11,8 @@ Event Content:
         "event_id": "$164569109460761pvPSY:matrix.org",
         "key": "BOMP!"
     }
-}```
+}
+```
 [Source](https://www.natrius.eu/dokuwiki/doku.php?id=digital:server:matrixsynapsemisc&s%5B%5D=reaction#send_custom_reactions_to_messages)
 
 ## Deutsch
