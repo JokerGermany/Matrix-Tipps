@@ -1,4 +1,6 @@
 # Matrix-Tipps
+This file will provide Tips for End-Users, if you want to use your own server, [i suppose this.](server-tips.md) 
+
 ## Send custom reactions in Element to messages 
 1. Chat /devtools
 2. Send Custom Event
@@ -29,5 +31,3 @@ oder
 
 ### Wie man Threads in Element aktiviert
 ![grafik](https://user-images.githubusercontent.com/30293477/169691217-7be8bd74-e9c1-4c9c-9ee4-7e2f838f162d.png)
-
-## [Matrix Server](server-tips.md) 
