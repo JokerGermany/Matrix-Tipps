@@ -19,7 +19,7 @@ Event Content:
 
 ## Add Jitsi Widget with a custom url to the room
 1. Chat /devtools
-2. Click on explore room status (gemran: "Roomstatus erkunden")
+2. Click on explore room status (german: "Roomstatus erkunden")
 3. In the “Event Type” text field, write this: im.vector.modular.widgets
 4. In the “State Key” text field, write this: dimension-jitsi-1622722886114
 5. In Event Content (German: Event Inhalt) insert the following:
