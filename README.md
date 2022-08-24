@@ -80,6 +80,21 @@ Event Content:
 or
 2. Use the Answer function. Then your messages will appear in the threads, too.
 
+## How to activate Labor in Element.
+Certain options in labor didn't show up when certain config files aren't edited.  
+You have to edit the config.json   
+-    %APPDATA%\$NAME\config.json on Windows  
+-    $XDG_CONFIG_HOME\$NAME\config.json or ~/.config/$NAME/config.json or Flatpak: ~/.var/app/im.riot.Riot/config/$NAME/config.json on Linux  
+-    ~/Library/Application Support/$NAME/config.json on macOS  
+$Name is Element, if you use a profilename its Element-<$Profilename>
+
+Insert this in the file:
+```
+{
+	"showLabsSettings": true
+}
+```
+(If the file don't exists, create it)
 
 ## Deutsch
 ### Wie reagiere ich auf Threads
@@ -89,3 +104,19 @@ oder
 
 ### Wie man Threads in Element aktiviert
 ![grafik](https://user-images.githubusercontent.com/30293477/169691217-7be8bd74-e9c1-4c9c-9ee4-7e2f838f162d.png)
+
+## Wie man Labor in Elment freischaltet:
+Viele Optionen tauchen im Labor Menü nicht auf, wenn man sie nicht freischaltet.
+Es muss die config. json bearbeitet werden
+-    %APPDATA%\$NAME\config.json unter Windows  
+-    $XDG_CONFIG_HOME\$NAME\config.json oder ~/.config/$NAME/config.json oder Flatpak: ~/.var/app/im.riot.Riot/config/$NAME/config.json unter Linux  
+-    ~/Library/Application Support/$NAME/config.json unter macOS  
+$Name sollte in der Regel Element sein. Wird ein Profilname genutzt ist es Element-<$Profilename>
+
+In die Datei folgendes einfügen:
+```
+{
+	"showLabsSettings": true
+}
+```
+(Ist die Datei nicht vorhanden, einfach erstellen.)
