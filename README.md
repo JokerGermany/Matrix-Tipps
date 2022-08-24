@@ -1,7 +1,9 @@
-[![Matrix Raum über Messenger #messenger-de:matrix.org](https://img.shields.io/matrix/messenger-de:matrix.org.svg?label=%23messenger-de:matrix.org&logo=matrix&server_fqdn=matrix.org)](https://matrix.to/#/#messenger-de:matrix.org)
-
-# Matrix-Tipps
-This file will provide Tips for End-Users, if you want to use your own server, [i suppose this.](server-tips.md) 
+Matrix Raum für "einfache" Fragen:  
+[![Matrix Raum für "einfache" Fragen: #matrix-support-de:matrix.org](https://img.shields.io/matrix/matrix-support-de:matrix.org.svg?label=%23messenger-de:matrix.org&logo=matrix&server_fqdn=matrix.org)](https://matrix.to/#/#matrix-support-de:matrix.org:matrix.org)  
+Matrix Raum für fortgeschrittene Fragen:  
+[![Matrix Raum für fortgeschrittene Fragen: #matrixgeeks:matrix.org](https://img.shields.io/matrix/matrixgeeks:matrix.org.svg?label=%23messenger-de:matrix.org&logo=matrix&server_fqdn=matrix.org)](https://matrix.to/#/#matrixgeeks:matrix.org)  
+Matrix Raum über Messenger Allgemein:  
+[![Matrix Raum über Messenger Allgemein: #messenger-de:matrix.org](https://img.shields.io/matrix/messenger-de:matrix.org.svg?label=%23messenger-de:matrix.org&logo=matrix&server_fqdn=matrix.org)](https://matrix.to/#/#messenger-de:matrix.org)
 
 ## Send custom reactions in Element to messages 
 1. Chat /devtools
