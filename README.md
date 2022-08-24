@@ -1,3 +1,5 @@
+[![Matrix Raum über Messenger #messenger-de:matrix.org](https://img.shields.io/matrix/messenger-de:matrix.org.svg?label=%23messenger-de:matrix.org&logo=matrix&server_fqdn=matrix.org)](https://matrix.to/#/#messenger-de:matrix.org)
+
 # Matrix-Tipps
 This file will provide Tips for End-Users, if you want to use your own server, [i suppose this.](server-tips.md) 
 
