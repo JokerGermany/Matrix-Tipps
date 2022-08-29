@@ -79,12 +79,12 @@ Event Content:
 or
 2. Use the Answer function. Then your messages will appear in the threads, too.
 
-## How to activate Labs in Element.
+## How to activate Labs on Element.
 Certain options in labor didn't show up when certain config files aren't edited.  
 You have to edit the config.json   
--    %APPDATA%\$NAME\config.json on Windows  
--    $XDG_CONFIG_HOME\$NAME\config.json or ~/.config/$NAME/config.json or Flatpak: ~/.var/app/im.riot.Riot/config/$NAME/config.json on Linux  
--    ~/Library/Application Support/$NAME/config.json on macOS  
+-    `%APPDATA%\$NAME\config.json` on Windows  
+-    `$XDG_CONFIG_HOME\$NAME\config.json` or `~/.config/$NAME/config.json` or Flatpak: `~/.var/app/im.riot.Riot/config/$NAME/config.json` on Linux  
+-    `~/Library/Application Support/$NAME/config.json` on macOS  
 $Name is Element, if you use a profilename its Element-<$Profilename>
 
 Insert this in the file:
@@ -115,9 +115,9 @@ oder
 ## Wie man Labor in Element freischaltet:
 Viele Optionen tauchen im Labor Menü nicht auf, wenn man sie nicht freischaltet.
 Es muss die config. json bearbeitet werden
--    %APPDATA%\$NAME\config.json unter Windows  
--    $XDG_CONFIG_HOME\$NAME\config.json oder ~/.config/$NAME/config.json oder Flatpak: ~/.var/app/im.riot.Riot/config/$NAME/config.json unter Linux  
--    ~/Library/Application Support/$NAME/config.json unter macOS  
+-    `%APPDATA%\$NAME\config.json` unter Windows  
+-    `$XDG_CONFIG_HOME\$NAME\config.json` oder `~/.config/$NAME/config.json` oder Flatpak: `~/.var/app/im.riot.Riot/config/$NAME/config.json` unter Linux  
+-    `~/Library/Application Support/$NAME/config.json` unter macOS  
 $Name sollte in der Regel Element sein. Wird ein Profilname genutzt ist es Element-<$Profilename>
 
 In die Datei folgendes einfügen:
