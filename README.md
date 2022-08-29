@@ -79,7 +79,7 @@ Event Content:
 or
 2. Use the Answer function. Then your messages will appear in the threads, too.
 
-## How to activate Labor in Element.
+## How to activate Labs in Element.
 Certain options in labor didn't show up when certain config files aren't edited.  
 You have to edit the config.json   
 -    %APPDATA%\$NAME\config.json on Windows  
@@ -112,7 +112,7 @@ oder
 ### Wie man Threads in Element aktiviert
 ![grafik](https://user-images.githubusercontent.com/30293477/169691217-7be8bd74-e9c1-4c9c-9ee4-7e2f838f162d.png)
 
-## Wie man Labor in Element freischaltet:
+## Wie man Labs in Element freischaltet:
 Viele Optionen tauchen im Labor Menü nicht auf, wenn man sie nicht freischaltet.
 Es muss die config. json bearbeitet werden
 -    %APPDATA%\$NAME\config.json unter Windows  
