@@ -21,8 +21,8 @@ Event Content:
 2. Explore room state
 2. Send custom state event
 3. 
-Event Type: `m.room.tombstone`
-State Key: let it empty
+Event Type: `m.room.tombstone`  
+State Key: let it empty  
 Event Content: 
 ```
 {
