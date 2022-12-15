@@ -16,7 +16,7 @@ Event Content:
 ```
 [Source](https://www.natrius.eu/dokuwiki/doku.php?id=digital:server:matrixsynapsemisc&s%5B%5D=reaction#send_custom_reactions_to_messages)
 
-##Tombstone
+## Tombstone
 1. Chat /devtools
 2. Explore room state
 2. Send custom state event
