@@ -16,6 +16,23 @@ Event Content:
 ```
 [Source](https://www.natrius.eu/dokuwiki/doku.php?id=digital:server:matrixsynapsemisc&s%5B%5D=reaction#send_custom_reactions_to_messages)
 
+##Tombstone
+1. Chat /devtools
+2. Explore room state
+2. Send custom state event
+3. 
+Event Type: `m.room.tombstone`
+State Key: let it empty
+Event Content: 
+```
+{
+    "body": "This room has been replaced",
+    "replacement_room": "!ERZvriGbDxJDxaCBxX:matrix.org"
+}
+```
+[Source](https://www.natrius.eu/dokuwiki/doku.php?id=digital:server:matrixsynapsemisc&s%5B%5D=reaction#tombstone_event)
+
+
 ## Add Jitsi Widget with a custom url to the room
 1. Chat /devtools
 2. Click on explore room status (german: "Roomstatus erkunden")
