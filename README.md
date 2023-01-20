@@ -102,7 +102,7 @@ You have to edit the config.json
 -    `%APPDATA%\$NAME\config.json` on Windows  
 -    `$XDG_CONFIG_HOME\$NAME\config.json` or `~/.config/$NAME/config.json` or Flatpak: `~/.var/app/im.riot.Riot/config/$NAME/config.json` on Linux  
 -    `~/Library/Application Support/$NAME/config.json` on macOS  
-$Name is Element, if you use a profilename its Element-<$Profilename>
+$Name is `Element`, if you use a profilename its `Element-<$Profilename>`
 
 Insert this in the file:
 ```
@@ -135,7 +135,7 @@ Es muss die config. json bearbeitet werden
 -    `%APPDATA%\$NAME\config.json` unter Windows  
 -    `$XDG_CONFIG_HOME\$NAME\config.json` oder `~/.config/$NAME/config.json` oder Flatpak: `~/.var/app/im.riot.Riot/config/$NAME/config.json` unter Linux  
 -    `~/Library/Application Support/$NAME/config.json` unter macOS  
-$Name sollte in der Regel Element sein. Wird ein Profilname genutzt ist es Element-<$Profilename>
+$Name sollte in der Regel `Element` sein. Wird ein Profilname genutzt ist es `Element-<$Profilename>`
 
 In die Datei folgendes einfügen:
 ```
