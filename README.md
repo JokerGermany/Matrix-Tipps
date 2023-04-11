@@ -92,9 +92,7 @@ Event Content:
 [Source](https://blog.karatek.net/2021/06/09/jitsi-bar-magic/)
 
 ## How to react on Threads?
-1. Activate Threads ([e.g in Element](https://user-images.githubusercontent.com/30293477/169691217-7be8bd74-e9c1-4c9c-9ee4-7e2f838f162d.png))   
-or
-2. Use the Answer function. Then your messages will appear in the threads, too.
+If your Matrix Client don't support Threads, use the Answer function. Then your messages will appear in the threads, too.
 
 ## How to activate Labs on Element.
 Certain options in labor didn't show up when certain config files aren't edited.  
@@ -122,9 +120,7 @@ Matrix Raum über Messenger Allgemein:
 Space wo die genannten Räume enthalten sind:  
 [![#freie-messenger-space:matrix.org](https://img.shields.io/matrix/freie-messenger-space:matrix.org.svg?label=%23freie-messenger-space:matrix.org&logo=matrix&server_fqdn=matrix.org)](https://matrix.to/#/#freie-messenger-space:matrix.org) 
 ### Wie reagiere ich auf Threads
-1. Aktiviere Threads ([e.g in Element](https://user-images.githubusercontent.com/30293477/169691217-7be8bd74-e9c1-4c9c-9ee4-7e2f838f162d.png))   
-oder
-2. Nutze die Antwort funktion auf die Beiträge, damit deine Nachrichten auch in den Threads erscheinen.
+Wenn dein Matrix-Client Threads nicht unterstützt, nutze die Antwort funktion auf die Beiträge, damit deine Nachrichten auch in den Threads erscheinen.
 
 ## Wie man Labor in Element freischaltet:
 Viele Optionen tauchen im Labor Menü nicht auf, wenn man sie nicht freischaltet.
