@@ -115,7 +115,7 @@ If you have a Room alias and want to join this room, you have to insert it in th
 If the Room was found in the Room directory the search result states as following:  
 ![JoinRoom2](img/EN-JoinRoom2.png)  
 If the Room was not found in the Room directory the search result states as following:  
-![JoinRoom3](img/EN-JoinRoom3.png)
+![JoinRoom3](img/EN-JoinRoom3.png)  
 In both cases you can join the Room.
 
 ## Deutsch
