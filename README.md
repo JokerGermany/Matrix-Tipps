@@ -94,7 +94,7 @@ Event Content:
 ## How to react on Threads?
 If your Matrix Client don't support Threads, use the Answer function. Then your messages will appear in the threads, too.
 
-## How to activate Labs on Element.
+## How to activate Labs on Element
 Certain options in labor didn't show up when certain config files aren't edited.  
 You have to edit the config.json   
 -    `%APPDATA%\$NAME\config.json` on Windows  
@@ -109,6 +109,14 @@ Insert this in the file:
 }
 ```
 (If the file don't exists, create it)
+## How to join a Room with a room alias
+If you have a Room alias and want to join this room, you have to insert it in the public room search.
+![JoinRoom1](img/EN-JoinRoom1.png)  
+If the Room was found in the Room directory the search result states as following:  
+![JoinRoom2](img/EN-JoinRoom2.png)  
+If the Room was not found in the Room directory the search result states as following:  
+![JoinRoom3](img/EN-JoinRoom3.png)
+In both cases you can join the Room.
 
 ## Deutsch
 Matrix Raum für "einfache" Fragen:  
@@ -122,7 +130,7 @@ Space wo die genannten Räume enthalten sind:
 ### Wie reagiere ich auf Threads
 Wenn dein Matrix-Client Threads nicht unterstützt, nutze die Antwort funktion auf die Beiträge, damit deine Nachrichten auch in den Threads erscheinen.
 
-## Wie man Labor in Element freischaltet:
+### Wie man Labor in Element freischaltet:
 Viele Optionen tauchen im Labor Menü nicht auf, wenn man sie nicht freischaltet.
 Es muss die config. json bearbeitet werden
 -    `%APPDATA%\$NAME\config.json` unter Windows  
@@ -137,3 +145,12 @@ In die Datei folgendes einfügen:
 }
 ```
 (Ist die Datei nicht vorhanden, einfach erstellen.)
+
+### Wie man einen Raum mithilfe des Raum Alias beitritt
+Wenn man den Raum Alias weiß, dann kann man dem Raum beitreten indem man den Raum alias in der Raum suche eingibt.
+![JoinRoom1](img/DE-JoinRoom1.png)  
+Wenn der Raum in der Raumsuche gefunden wurde, sieht es so aus:  
+![JoinRoom2](img/DE-JoinRoom2.png)  
+Wenn der Raum nicht in der Raumsuche gefunden wurde, sieht es so aus:__
+![JoinRoom3](img/DE-JoinRoom3.png)
+In beiden Fällen kann man dem Raum beitreten!
