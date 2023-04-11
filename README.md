@@ -152,5 +152,5 @@ Wenn man den Raum Alias weiß, dann kann man dem Raum beitreten indem man den Ra
 Wenn der Raum in der Raumsuche gefunden wurde, sieht es so aus:  
 ![JoinRoom2](img/DE-JoinRoom2.png)  
 Wenn der Raum nicht in der Raumsuche gefunden wurde, sieht es so aus:__
-![JoinRoom3](img/DE-JoinRoom3.png)
+![JoinRoom3](img/DE-JoinRoom3.png)  
 In beiden Fällen kann man dem Raum beitreten!
