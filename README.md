@@ -154,3 +154,18 @@ Wenn der Raum in der Raumsuche gefunden wurde, sieht es so aus:
 Wenn der Raum nicht in der Raumsuche gefunden wurde, sieht es so aus:__
 ![JoinRoom3](img/DE-JoinRoom3.png)  
 In beiden Fällen kann man dem Raum beitreten!
+
+### Draupnir/mjolnir die korrekten Rechte geben
+Es gibt zwei verschiedene Möglichkeiten wie vorgegangen werden kann:  
+1. Dem Bot Admin Rechte geben.  
+Vorgehensweise hierbei ist einfach:  
+Draupnir/Mjolnir einladen und Admin Rechte geben.  
+Nachteil ist, dass dem Bot die dadurch die höchstmöglichen Berechtigungen gegeben werden und somit kein anderer Mjolnir/Draupnir herabstufen oder kicken kann.
+
+2. Dem Bot Moderator Rechte geben.
+
+Vorgehensweise:  
+1. Die Raumberechtigung für *Server-ACLs bearbeiten* auf Moderator stellen
+![](https://user-images.githubusercontent.com/30293477/233482127-c8ce7797-48a8-43a8-8746-386928bab39a.png)
+2. mjolnir/draupnir einladen
+3. mjolnir/draupnir Moderator Rechte geben.
