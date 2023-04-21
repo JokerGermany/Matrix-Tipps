@@ -166,6 +166,23 @@ Nachteil ist, dass dem Bot die dadurch die höchstmöglichen Berechtigungen gege
 
 Vorgehensweise:  
 1. Die Raumberechtigung für *Server-ACLs bearbeiten* auf Moderator stellen
+<details>
+  <summary>Element Web/Desktop</summary>
+  
 ![](https://user-images.githubusercontent.com/30293477/233482127-c8ce7797-48a8-43a8-8746-386928bab39a.png)
+  
+</details>
+<details>
+  <summary>Schildichat Android</summary>
+  
+![ModBot1](https://user-images.githubusercontent.com/30293477/233576913-745e914b-291d-4e0e-a4fe-35fb6216de7a.png)
+
+
+![Modbot2](https://user-images.githubusercontent.com/30293477/233576937-13e0467f-7dda-4c7e-a11e-c9ecb8225768.png)
+
+
+![Modbot3](https://user-images.githubusercontent.com/30293477/233576952-b1907f2c-38a9-458f-90c4-4a5e551b6a7a.png)
+
+</details>
 2. mjolnir/draupnir einladen
 3. mjolnir/draupnir Moderator Rechte geben.
