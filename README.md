@@ -118,6 +118,10 @@ If the Room was not found in the Room directory the search result states as foll
 ![JoinRoom3](img/EN-JoinRoom3.png)  
 In both cases you can join the Room.
 
+## Sliding Sync Urls
+matrix.org: https://slidingsync.lab.matrix.org
+tchncs.de: https://syncv3.matrix.tchncs.de
+
 ## Deutsch
 Matrix Raum für "einfache" Fragen:  
 [![Matrix Raum für "einfache" Fragen: #matrix-support-de:matrix.org](https://img.shields.io/matrix/matrix-support-de:matrix.org.svg?label=%23matrix-support-de:matrix.org&logo=matrix&server_fqdn=matrix.org)](https://matrix.to/#/#matrix-support-de:matrix.org)  
