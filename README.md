@@ -119,7 +119,7 @@ If the Room was not found in the Room directory the search result states as foll
 In both cases you can join the Room.
 
 ## Sliding Sync Urls
-matrix.org: https://slidingsync.lab.matrix.org
+matrix.org: https://slidingsync.lab.matrix.org  
 tchncs.de: https://syncv3.matrix.tchncs.de
 
 ## Deutsch
