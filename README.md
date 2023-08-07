@@ -105,7 +105,7 @@ $Name is `Element`, if you use a profilename its `Element-<$Profilename>`
 Insert this in the file:
 ```
 {
-	"showLabsSettings": true
+	"show_labs_settings": true
 }
 ```
 (If the file don't exists, create it)
@@ -145,7 +145,7 @@ $Name sollte in der Regel `Element` sein. Wird ein Profilname genutzt ist es `El
 In die Datei folgendes einfügen:
 ```
 {
-	"showLabsSettings": true
+	"show_labs_settings": true
 }
 ```
 (Ist die Datei nicht vorhanden, einfach erstellen.)
