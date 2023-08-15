@@ -118,9 +118,46 @@ If the Room was not found in the Room directory the search result states as foll
 ![JoinRoom3](img/EN-JoinRoom3.png)  
 In both cases you can join the Room.
 
+
+## Which Server 
+### Should I choose  
+Here is a list of potential servers:  
+https://joinmatrix.org/servers/  
+
+### Should I NOT Choose
+Servers which a recommend by this list shouldn't be choosen:  
+https://tatsumoto-ren.github.io/blog/list-of-matrix-servers.html  
+The author of this list ist trying to get people to "malicious" servers to raise the pressure removing their servers from the ban lists. This won't happen and you will not be able to join many rooms!  
+
+### My Personal Choice
+#### Why
+A couple of time ago I switched from tchncs.de to matrix.org because I was missing a feature (view.matrix.org which is deprecated today)  
+I questioned: I am missing feature, will I missing a feature in the Future?  
+I only knew matrix briefly and switched from XMPP, where every Client and Server has another Featureset....  
+matrix.org is a test server and therefore has all (beta) Feature.  
+  
+I wanted to convince more people to matrix and that was my Checklist:  
+- simple es possible like SSO via e.g google. (Despite I don't use it and advice against it, i logged in 99% of the people this way...)
+- It would be good using the same like other People who i show Matrix. e.G. for better understanding errors.
+
+#### Cons of matrix.org
+- matrix.org is by far the biggest Server. Such a decentralisation isn't good, but in my opinion should be the first goal getting e.G. WhatsApp Users to Matrix...
+And the long time goal is to shut off matrix.org https://youtu.be/C2eE7rCUKlE?t=1213
+- matrix.org is slower then other Matrix Servers and sometimes there are (short) connection losses.
+
+#### Why don't you use your own Matrix Server?
+I have an own Matrix Server which i use for bridging private Chats from other Messengers. But i don't care really much if it works. I don't want to be careless towards matrix, thats the reason why i don't use my own Matrix Server.
+
+#### My recommendation for Bridging
+- For private Chats the best thing would be an own Matrix Server. If you don't want to use an own Server I recommend https://tchncs.de/matrix#bridges
+- For Briding whole rooms for the public I recommend https://t2bot.io/ and https://tchncs.de/matrix#bridges (For XMPP Briding I recommend https://aria-net.org/SitePages/Portal/Bridges.aspx )
+
 ## Sliding Sync Urls
 matrix.org: https://slidingsync.lab.matrix.org  
 tchncs.de: https://syncv3.matrix.tchncs.de
+
+
+
 
 ## Deutsch
 Matrix Raum für "einfache" Fragen:  
@@ -190,3 +227,37 @@ Vorgehensweise:
 </details>
 2. mjolnir/draupnir einladen
 3. mjolnir/draupnir Moderator Rechte geben.
+
+## Whelchen Server ... 
+### ... sollte ich wählen? 
+Hier eine Liste von Servern:
+https://joinmatrix.org/servers/  
+
+### ... sollte ich nicht wählen?
+Server die hier empfohlen werden, sollte nicht genutzt werden:
+https://tatsumoto-ren.github.io/blog/list-of-matrix-servers.html  
+Der Autor dieser Liste versucht neue Nutzer quasi zu "bösartigen" Servern zu treiben um sie quasi als Geisel zu nehmen. Dies soll den Druck erhöhen diese Server von der Ban List zu nehmen. Dies wird nicht passieren und du wirst viele Räume nicht betreten können!
+
+### Meine persönliche Wahl
+#### Warum
+Vor einiger Zeit bin ich von tchncs.de zu matrix.org gewechselt, weil mir damals ein Feature gefehlt hat (view.matrix.org).  
+Da habe ich mich gefragt: Wenn mir jetzt schon ein Feature fehlt, fehlen mir dann in Zukunft vielleicht mehr?  
+Ich kannte MAtrix erst kurz und bin von XMPP gewechselt. Hier hat fast jeder Server und Client andere Funktionen...   
+Matrix.org ist ein Test Server und hat daher alle (Beta) Feature.  
+  
+Da ich gerne alle möglichen Leute zu Matrix bringen wollte, war mir sehr wichtig:  
+  
+Das die dann auch alle Features haben.  
+- So einfach wie möglich (SSO, auch wenn ich es selber nicht nutze und davon abrate habe ich so 99% der Leute angemeldet)
+- Es wäre gut, dass gleiche zu benutzen wie die Leute die ich zu Matrix bringe um evtl. Fehler besser nachvollziehen zu können.
+
+#### Nachteile von matrix.org
+- Matrix.org ist bei weitem einer der größten Matrix Server. So eine Dezentralisation ist nicht gut. Aber meiner Meinung nach sollte erstmal einer der Ziele sein die Leute von z.B. WhatsApp weg zu bewegen...
+- matrix.org ist langsamer als andere Matrix Server und es gibt manchmal sogar (kurze) Verbindungsabbrüche.
+
+#### Warum nutzt du nicht deinen eigenen Matrix Server?
+Ich nutze meinen eigenen Matrix Server um private Chats von anderen Messengern zu bridgen. Aber es interessiert mich nicht sehr ob es funktioniert. Aber Matrix muss für mich funktionieren. Daher will ich da gerne verantwortungslos sein können und sagen: Da soll sich der Zukunfts-Joker drum kümmern...
+
+#### Meine persönliche Empfehlung für Bridges
+- Für private Chats würde ich einen eigenen Matrix Server empfehlen. Wenn du das nicht willst, empfehle ich https://tchncs.de/matrix#bridges
+- Um ganze Räume für die Öffentlichkeit zu bridgen empfehle ich https://t2bot.io/ oder https://tchncs.de/matrix#bridges (Für XMPP empfehle ich https://aria-net.org/SitePages/Portal/Bridges.aspx )
