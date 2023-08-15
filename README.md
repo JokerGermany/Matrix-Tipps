@@ -150,7 +150,8 @@ I have an own Matrix Server which i use for bridging private Chats from other Me
 
 #### My recommendation for Bridging
 - For private Chats the best thing would be an own Matrix Server. If you don't want to use an own Server I recommend https://tchncs.de/matrix#bridges
-- For Briding whole rooms for the public I recommend https://t2bot.io/ and https://tchncs.de/matrix#bridges (For XMPP Briding I recommend https://aria-net.org/SitePages/Portal/Bridges.aspx )
+- For Briding whole rooms for the public I recommend https://t2bot.io/ and https://tchncs.de/matrix#bridges  
+(For XMPP Briding I recommend https://aria-net.org/SitePages/Portal/Bridges.aspx )
 
 ## Sliding Sync Urls
 matrix.org: https://slidingsync.lab.matrix.org  
@@ -248,7 +249,7 @@ Matrix.org ist ein Test Server und hat daher alle (Beta) Feature.
 Da ich gerne alle möglichen Leute zu Matrix bringen wollte, war mir sehr wichtig:  
   
 Das die dann auch alle Features haben.  
-- So einfach wie möglich (SSO, auch wenn ich es selber nicht nutze und davon abrate habe ich so 99% der Leute angemeldet)
+- So einfach wie möglich (SSO z.B. über Google, auch wenn ich es selber nicht nutze und davon abrate habe ich so 99% der Leute angemeldet)
 - Es wäre gut, dass gleiche zu benutzen wie die Leute die ich zu Matrix bringe um evtl. Fehler besser nachvollziehen zu können.
 
 #### Nachteile von matrix.org
@@ -258,6 +259,8 @@ Das die dann auch alle Features haben.
 #### Warum nutzt du nicht deinen eigenen Matrix Server?
 Ich nutze meinen eigenen Matrix Server um private Chats von anderen Messengern zu bridgen. Aber es interessiert mich nicht sehr ob es funktioniert. Aber Matrix muss für mich funktionieren. Daher will ich da gerne verantwortungslos sein können und sagen: Da soll sich der Zukunfts-Joker drum kümmern...
 
-#### Meine persönliche Empfehlung für Bridges
+#### Meine persönliche Empfehlung für Brücken/Bridges
 - Für private Chats würde ich einen eigenen Matrix Server empfehlen. Wenn du das nicht willst, empfehle ich https://tchncs.de/matrix#bridges
-- Um ganze Räume für die Öffentlichkeit zu bridgen empfehle ich https://t2bot.io/ oder https://tchncs.de/matrix#bridges (Für XMPP empfehle ich https://aria-net.org/SitePages/Portal/Bridges.aspx )
+- Um ganze Räume für die Öffentlichkeit zu bridgen empfehle ich https://t2bot.io/ oder https://tchncs.de/matrix#bridges  
+(Für XMPP empfehle ich https://aria-net.org/SitePages/Portal/Bridges.aspx )
+Mehr Infos über Bridges: https://git.tchncs.de/sils/Matrix-Analyse/-/blob/main/bruecken.md
