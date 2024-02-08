@@ -33,7 +33,7 @@ I have an own Matrix Server which i use for bridging private Chats from other Me
 #### My recommendation for Bridging
 - For private Chats the best thing would be an own Matrix Server. If you don't want to use an own Server I recommend https://tchncs.de/matrix#bridges
 - For Briding whole rooms for the public I recommend https://t2bot.io/ and https://tchncs.de/matrix#bridges  
-(For XMPP Briding I recommend https://aria-net.org/SitePages/Portal/Bridges.aspx )
+(For XMPP Bridging I recommend https://aria-net.org/SitePages/Portal/Bridges.aspx )
 
 ## How to join a Room with a room alias
 If you have a Room alias and want to join this room, you have to insert it in the public room search.
