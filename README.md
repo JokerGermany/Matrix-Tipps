@@ -172,18 +172,18 @@ Matrix Raum über Messenger Allgemein:
 Space wo die genannten Räume enthalten sind:  
 [![#freie-messenger-space:matrix.org](https://img.shields.io/matrix/freie-messenger-space:matrix.org.svg?label=%23freie-messenger-space:matrix.org&logo=matrix&server_fqdn=matrix.org)](https://matrix.to/#/#freie-messenger-space:matrix.org) 
 
-## Welchen Server ... 
-### ... sollte ich wählen? 
+### Welchen Server ... 
+#### ... sollte ich wählen? 
 Hier eine Liste von Servern:
 https://joinmatrix.org/servers/  
 
-### ... sollte ich nicht wählen?
+#### ... sollte ich nicht wählen?
 Server die hier empfohlen werden, sollte nicht genutzt werden:
 https://tatsumoto-ren.github.io/blog/list-of-matrix-servers.html  
 Der Autor dieser Liste versucht neue Nutzer quasi zu "bösartigen" Servern zu treiben um sie quasi als Geisel zu nehmen. Dies soll den Druck erhöhen diese Server von der Ban List zu nehmen. Dies wird nicht passieren und du wirst viele Räume nicht betreten können!
 
-### Meine persönliche Wahl
-#### Warum
+#### Meine persönliche Wahl
+##### Warum
 Vor einiger Zeit bin ich von tchncs.de zu matrix.org gewechselt, weil mir damals ein Feature gefehlt hat (view.matrix.org).  
 Da habe ich mich gefragt: Wenn mir jetzt schon ein Feature fehlt, fehlen mir dann in Zukunft vielleicht mehr?  
 Ich kannte MAtrix erst kurz und bin von XMPP gewechselt. Hier hat fast jeder Server und Client andere Funktionen...   
@@ -195,11 +195,11 @@ Das die dann auch alle Features haben.
 - So einfach wie möglich (SSO z.B. über Google, auch wenn ich es selber nicht nutze und davon abrate habe ich so 99% der Leute angemeldet)
 - Es wäre gut, dass gleiche zu benutzen wie die Leute die ich zu Matrix bringe um evtl. Fehler besser nachvollziehen zu können.
 
-#### Nachteile von matrix.org
+##### Nachteile von matrix.org
 - Matrix.org ist bei weitem einer der größten Matrix Server. So eine Dezentralisation ist nicht gut. Aber meiner Meinung nach sollte erstmal einer der Ziele sein die Leute von z.B. WhatsApp weg zu bewegen...
 - matrix.org ist langsamer als andere Matrix Server und es gibt manchmal sogar (kurze) Verbindungsabbrüche.
 
-#### Warum nutzt du nicht deinen eigenen Matrix Server?
+##### Warum nutzt du nicht deinen eigenen Matrix Server?
 Ich nutze meinen eigenen Matrix Server um private Chats von anderen Messengern zu bridgen. Aber es interessiert mich nicht sehr ob es funktioniert. Aber Matrix muss für mich funktionieren. Daher will ich da gerne verantwortungslos sein können und sagen: Da soll sich der Zukunfts-Joker drum kümmern...
 
 #### Meine persönliche Empfehlung für Brücken/Bridges
