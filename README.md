@@ -209,6 +209,21 @@ Ich nutze meinen eigenen Matrix Server um private Chats von anderen Messengern z
 
 Mehr Infos über Bridges: https://git.tchncs.de/sils/Matrix-Analyse/-/blob/main/bruecken.md
 
+### Räume Serverübergreifend finden.
+Im Standard werden nur Räume im Raumverzeichnis des eigenen Servers gesucht. [MRS](https://matrixrooms.info/) bietet die Möglichkeit Serverübergreifend zu suchen.
+Im folgenden erkläre ich wie das in Element/Schildichat Web/Desktop eingerichtet werden kann.
+1. Auf Suchen oder Strg+K drücken
+![Auf Suchen oder Strg+K drücken](https://github.com/JokerGermany/Matrix-Tipps/assets/30293477/0ffe5406-18cc-489e-ae57-409cb7eb1224)
+2. auf öffentliche Räume klicken
+![auf öffentliche Räume klicken](https://github.com/JokerGermany/Matrix-Tipps/assets/30293477/919d6e09-22da-4e3c-bd34-3af680b8be4b)
+3. Auf "Matrix Räume zeigen" klicken
+![Auf "Matrix Räume zeigen" klicken](https://github.com/JokerGermany/Matrix-Tipps/assets/30293477/8372d457-0035-4a22-ad4e-dd72ac109f4b)
+4. "Auf neuen Server hinzufügen ..." klicken
+!["Auf neuen Server hinzufügen ..." klicken](https://github.com/JokerGermany/Matrix-Tipps/assets/30293477/ca738f4a-4274-4e91-8c05-73ea01c50e7a)
+5. matrirooms.info eintragen
+![matrirooms.info eintragen](https://github.com/JokerGermany/Matrix-Tipps/assets/30293477/28d5d114-03f9-4b94-affd-803883390c86)
+6. auf hinzufügen klicken.
+
 ### Wie man einen Raum mithilfe des Raum Alias beitritt
 Wenn man den Raum Alias weiß, dann kann man dem Raum beitreten indem man den Raum alias in der Raum suche eingibt.
 ![JoinRoom1](img/DE-JoinRoom1.png)  
