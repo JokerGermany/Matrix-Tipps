@@ -19,7 +19,7 @@ I only knew matrix briefly and switched from XMPP, where every Client and Server
 matrix.org is a test server and therefore has all (beta) Feature.  
   
 I wanted to convince more people to matrix and that was my Checklist:  
-- simple es possible like SSO via e.g google. (Despite I don't use it and advice against it, i logged in 99% of the people this way...)
+- simple as possible like SSO via e.g google. (Despite I don't use it and advice against it, i logged in 99% of the people this way...)
 - It would be good using the same like other People who i show Matrix. e.G. for better understanding errors.
 
 #### Cons of matrix.org
