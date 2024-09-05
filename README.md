@@ -205,7 +205,7 @@ Ich nutze meinen eigenen Matrix Server um private Chats von anderen Messengern z
 #### Meine persönliche Empfehlung für Brücken/Bridges
 - Für private Chats würde ich einen eigenen Matrix Server empfehlen. Wenn du das nicht willst, empfehle ich https://tchncs.de/matrix#bridges
 - Um ganze Räume für die Öffentlichkeit zu bridgen empfehle ich https://t2bot.io/ oder https://tchncs.de/matrix#bridges  
-(Für XMPP empfehle ich https://aria-net.org/SitePages/Portal/Bridges.aspx )
+(Für XMPP empfehle ich https://archon.im/arianet/matrix-homeserver/services/ )
 
 Mehr Infos über Bridges: https://git.tchncs.de/sils/Matrix-Analyse/-/blob/main/bruecken.md
 
