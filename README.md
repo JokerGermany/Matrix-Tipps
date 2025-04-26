@@ -220,8 +220,8 @@ Im folgenden erkläre ich wie das in Element/Schildichat Web/Desktop eingerichte
 ![Auf "Matrix Räume zeigen" klicken](https://github.com/JokerGermany/Matrix-Tipps/assets/30293477/8372d457-0035-4a22-ad4e-dd72ac109f4b)
 4. "Auf neuen Server hinzufügen ..." klicken
 !["Auf neuen Server hinzufügen ..." klicken](https://github.com/JokerGermany/Matrix-Tipps/assets/30293477/ca738f4a-4274-4e91-8c05-73ea01c50e7a)
-5. matrirooms.info eintragen
-![matrirooms.info eintragen](https://github.com/JokerGermany/Matrix-Tipps/assets/30293477/28d5d114-03f9-4b94-affd-803883390c86)
+5. matrixrooms.info eintragen
+![matrixrooms.info eintragen](https://github.com/JokerGermany/Matrix-Tipps/assets/30293477/28d5d114-03f9-4b94-affd-803883390c86)
 6. auf hinzufügen klicken.
 
 ### Wie man einen Raum mithilfe des Raum Alias beitritt
