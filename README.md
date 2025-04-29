@@ -288,7 +288,8 @@ Vorgehensweise:
 #### Raum-ID
 Eine Raum-ID ist ein beliebige Zeichenkette. Im "normalen" Matrix ist diese oft so bekannt `!jqjYAhOIRvqbLqqsQs:matrix.org`.
 Diese Raum-ID alleine kann laut Matrix-Spezifikationen NICHT zum beitreten genutzt werden. Denn dies ist eigentlich nur eine Zeichenkette.
-Das matrix.org ist in diesem Fall KEINE Hilfe, sie wird nur genutzt um sicherstellen zu können, dass die Raum-ID nur einmalig vorhanden ist.
+Das matrix.org ist in diesem Fall KEINE Hilfe ist, liegt daran, dass sie genutzt wird um sicherstellen zu können, dass die Raum-ID einzigartig ist.
+(Man würde sehr gerne andere Raum-IDs ohne Servernamen nutzen, aber bisher fehlt das Genie das dafür sorgen kann, dass die Raum-IDs einzigartig ist.)
 Es kann gut sein, das Server ein beitreten zulassen, wenn Ihnen die Raum-ID bekannt ist, dies ist aber KEINE Matrix-Spezifikation.
 Der Grund ist relativ einfach erklärt:
 Man stelle sich vor alle matrix.org User verlassen diesen Raum und Matrix.org vergisst diesen Raum. Die Raum-ID bleibt weiterhin `!jqjYAhOIRvqbLqqsQs:matrix.org`, hat aber nichts mit matrix.org zu tun.
