@@ -302,7 +302,7 @@ Hierbei ist zu beachten, dass die Verknüpfung auf dem jeweiligen Server angeleg
 Ein Alias ist also immer einem konkreten Matrix-Server zugeordnet und davon abhängig.
 #### Lokaler Raum-Alias
 Ein lokaler Raum alias kann von jedem Mitglied eines Raumes angelegt werden. 
-![grafik](https://github.com/user-attachments/assets/7c88a7f5-d3d7-4638-911f-a10a323fb858)
+![grafik](https://github.com/user-attachments/assets/7c88a7f5-d3d7-4638-911f-a10a323fb858)  
 Lokale Aliase können nur von Nutzern des jeweiligen Servers gesehen werden. Nutzen können ihn alle Nutzer solange der Server erreichbar ist!
 Lokale Aliase können nur mit jeweiligen Berechtigungen im Raum und wenn man Nutzer des jeweiligen Servers ist zur Hauptadresse gemacht werden.
 #### Zusammenfassung:
