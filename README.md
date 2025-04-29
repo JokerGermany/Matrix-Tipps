@@ -283,3 +283,32 @@ Vorgehensweise:
 </details>
 2. mjolnir/draupnir einladen
 3. mjolnir/draupnir Moderator Rechte geben.
+
+### Kleine Raumlehre
+#### Raum-ID
+Eine Raum-ID ist ein beliebige Zeichenkette. Im "normalen" Matrix ist diese oft so bekannt `!jqjYAhOIRvqbLqqsQs:matrix.org`.
+Diese Raum-ID alleine kann laut Matrix-Spezifikationen NICHT zum beitreten genutzt werden. Denn dies ist eigentlich nur eine Zeichenkette.
+Das matrix.org ist in diesem Fall KEINE Hilfe, sie wird nur genutzt um sicherstellen zu können, dass die Raum-ID nur einmalig vorhanden ist.
+Es kann gut sein, das Server ein beitreten zulassen, wenn Ihnen die Raum-ID bekannt ist, dies ist aber KEINE Matrix-Spezifikation.
+Der Grund ist relativ einfach erklärt:
+Man stelle sich vor alle matrix.org User verlassen diesen Raum und Matrix.org vergisst diesen Raum. Die Raum-ID bleibt weiterhin `!jqjYAhOIRvqbLqqsQs:matrix.org`, hat aber nichts mit matrix.org zu tun.
+In diesem Fall kann auch matrix.org dem Raum nicht mehr über die ID beitreten! 
+Raum-IDs werden nutzbar über die via Parameter:
+`https://matrix.to/#/!jqjYAhOIRvqbLqqsQs:matrix.org/$lR8h_rVYw1S5A1J8vmSz2i6kvzWR6jghS3MQMxCTjNA?via=matrix.org&via=tchncs.de&via=4d2.org`
+Möchte ein User den Raum betreten und der Server kennt den Raum nicht, versucht er einen Server aus der via Parametern zu fragen. Das beitreten klappt also nur dann, wenn mindestens ein Server aus den via Parametern erreichbar ist.
+#### Raum-Alias
+Ein Raum alias kann man sich wie eine Verknüpfung zur Raum ID vorstellen. `#messenger-de:matrix.org`
+Hierbei ist zu beachten, dass die Verknüpfung auf dem jeweiligen Server angelegt wird. Ist matrix.org also nicht erreichbar, dann kann niemand über den Alias den Raum beitreten.
+Ein Alias ist also immer einem konkreten Matrix-Server zugeordnet und davon abhängig.
+#### Lokaler Raum-Alias
+Ein lokaler Raum alias kann von jedem Mitglied eines Raumes angelegt werden. 
+![grafik](https://github.com/user-attachments/assets/7c88a7f5-d3d7-4638-911f-a10a323fb858)
+Lokale Aliase können nur von Nutzern des jeweiligen Servers gesehen werden. Nutzen können ihn alle Nutzer solange der Server erreichbar ist!
+Lokale Aliase können nur mit jeweiligen Berechtigungen im Raum und wenn man Nutzer des jeweiligen Servers ist zur Hauptadresse gemacht werden.
+#### Zusammenfassung:
+`#messenger-de:matrix.org` kann nur beigetreten werden, wenn matrix.org erreichbar ist.  
+`#messenger-de:tchncs.org` kann nur beigetreten werden, wenn tchncs.de erreichbar ist.  
+`https://matrix.to/#/!jqjYAhOIRvqbLqqsQs:matrix.org/$lR8h_rVYw1S5A1J8vmSz2i6kvzWR6jghS3MQMxCTjNA?via=matrix.org&via=tchncs.de&via=4d2.org` kann beigetreten werden, wenn matrix.org, tchncs.de, 4d2.org .  
+Soll also ein Raum "Ausfallsicher" erreicht werden, ist ein Room-ID mit möglichst vielen via Parametern zu empfehlen.  
+
+Ist einer der im Raum teilnehmenden Server nicht erreichbar, hat dies übrigens nur für die jeweiligen Nutzer des Servers einen Effekt.
