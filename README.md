@@ -313,3 +313,14 @@ Lokale Aliase können nur mit jeweiligen Berechtigungen im Raum und wenn man Nut
 Soll also ein Raum "Ausfallsicher" erreicht werden, ist ein Room-ID mit möglichst vielen via Parametern zu empfehlen.  
 
 Ist einer der im Raum teilnehmenden Server nicht erreichbar, hat dies übrigens nur für die jeweiligen Nutzer des Servers einen Effekt.
+#### Praktisches Vorgehen in Element
+![grafik](https://github.com/user-attachments/assets/69e56b8c-2957-4a94-8231-93a1e246faa4)  
+Klickt man rechte Maustaste auf den Raum und dann auf Raumlink kopieren, wird die Hauptadresse des Raumes, ein Alias kopiert.  
+Im obigen Beispiel wäre dies `#messenger-de:matrix.org`. Bedeutet, dass wenn matrix.org nicht erreichbar ist, der Link nicht funktioniert.
+Die Raum-ID mit via Parameter erhält man bei Element, wenn man eine Nachricht aus dem Raum teilt.
+![grafik](https://github.com/user-attachments/assets/67571704-2b4c-4fef-9a39-b1fe864b70b8)
+Anschließend erhält man einen Link wie diesen:  
+`https://matrix.to/#/!jqjYAhOIRvqbLqqsQs:matrix.org/$lR8h_rVYw1S5A1J8vmSz2i6kvzWR6jghS3MQMxCTjNA?via=matrix.org&via=tchncs.de&via=4d2.org`
+Mit diesem Link wird auch gleich zu der geteilten Nachricht gesprungen. Möchte man dies nicht, muss alles hinter dem Servernamen bis vorm Fragezeichen aus dem Link gelöscht werden.  
+In diesem Beispiel:  
+`https://matrix.to/#/!jqjYAhOIRvqbLqqsQs:matrix.org?via=matrix.org&via=tchncs.de&via=4d2.org`
