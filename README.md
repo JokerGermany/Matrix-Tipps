@@ -308,7 +308,7 @@ Lokale Aliase können nur mit jeweiligen Berechtigungen im Raum und wenn man Nut
 #### Zusammenfassung:
 `#messenger-de:matrix.org` kann nur beigetreten werden, wenn matrix.org erreichbar ist.  
 `#messenger-de:tchncs.org` kann nur beigetreten werden, wenn tchncs.de erreichbar ist.  
-`https://matrix.to/#/!jqjYAhOIRvqbLqqsQs:matrix.org/$lR8h_rVYw1S5A1J8vmSz2i6kvzWR6jghS3MQMxCTjNA?via=matrix.org&via=tchncs.de&via=4d2.org` kann beigetreten werden, wenn matrix.org, tchncs.de, 4d2.org .  
+`https://matrix.to/#/!jqjYAhOIRvqbLqqsQs:matrix.org/$lR8h_rVYw1S5A1J8vmSz2i6kvzWR6jghS3MQMxCTjNA?via=matrix.org&via=tchncs.de&via=4d2.org` kann beigetreten werden, wenn matrix.org, tchncs.de, 4d2.org erreichbar ist.  
 Soll also ein Raum "Ausfallsicher" erreicht werden, ist ein Room-ID mit möglichst vielen via Parametern zu empfehlen.  
 
 Ist einer der im Raum teilnehmenden Server nicht erreichbar, hat dies übrigens nur für die jeweiligen Nutzer des Servers einen Effekt.
