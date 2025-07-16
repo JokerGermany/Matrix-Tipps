@@ -300,7 +300,7 @@ Eine Raum-ID ist ein beliebige Zeichenkette.
 </details>
 Raum-IDs werden nutzbar über die via Parameter:
 
-`https://matrix.to/#/!jqjYAhOIRvqbLqqsQs:matrix.org/$lR8h_rVYw1S5A1J8vmSz2i6kvzWR6jghS3MQMxCTjNA?via=matrix.org&via=tchncs.de&via=4d2.org`
+`https://matrix.to/#/!jqjYAhOIRvqbLqqsQs:matrix.org/$lR8h_rVYw1S5A1J8vmSz2i6kvzWR6jghS3MQMxCTjNA?via=matrix.org&via=tchncs.de&via=4d2.org`  
 Möchte ein User den Raum betreten und der Server kennt den Raum nicht, versucht er einen Server aus der via Parametern zu fragen. Das beitreten klappt also nur dann, wenn mindestens ein Server aus den via Parametern erreichbar ist.
 
 #### Raum-Alias
