@@ -301,6 +301,7 @@ Eine Raum-ID ist ein beliebige Zeichenkette.
 Raum-IDs werden nutzbar über die via Parameter:
 `https://matrix.to/#/!jqjYAhOIRvqbLqqsQs:matrix.org/$lR8h_rVYw1S5A1J8vmSz2i6kvzWR6jghS3MQMxCTjNA?via=matrix.org&via=tchncs.de&via=4d2.org`
 Möchte ein User den Raum betreten und der Server kennt den Raum nicht, versucht er einen Server aus der via Parametern zu fragen. Das beitreten klappt also nur dann, wenn mindestens ein Server aus den via Parametern erreichbar ist.
+
 #### Raum-Alias
 Ein Raum alias kann man sich wie eine Verknüpfung zur Raum ID vorstellen. `#messenger-de:matrix.org`
 Hierbei ist zu beachten, dass die Verknüpfung auf dem jeweiligen Server angelegt wird. Ist matrix.org also nicht erreichbar, dann kann niemand über den Alias den Raum beitreten.
