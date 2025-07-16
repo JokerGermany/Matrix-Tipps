@@ -146,7 +146,7 @@ You have to edit the config.json
 -    `~/Library/Application Support/$NAME/config.json` on macOS  
 $Name is `Element`, if you use a profilename its `Element-<$Profilename>`
 
-Insert this in the file:
+Insert this in the file:Update README.md
 ```
 {
 	"show_labs_settings": true
@@ -301,7 +301,7 @@ Eine Raum-ID ist ein beliebige Zeichenkette.
 Raum-IDs werden nutzbar über die via Parameter:
 
 `https://matrix.to/#/!jqjYAhOIRvqbLqqsQs:matrix.org/$lR8h_rVYw1S5A1J8vmSz2i6kvzWR6jghS3MQMxCTjNA?via=matrix.org&via=tchncs.de&via=4d2.org`  
-Möchte ein User den Raum betreten und der Server kennt den Raum nicht, versucht er einen Server aus der via Parametern zu fragen. Das beitreten klappt also nur dann, wenn mindestens ein Server aus den via Parametern erreichbar ist.
+Möchte ein User den Raum betreten und der Server des Users kennt den Raum nicht, versucht er einen Server aus der via Parametern zu fragen. Das beitreten klappt also nur dann, wenn mindestens ein Server aus den via Parametern erreichbar ist.
 
 #### Raum-Alias
 Ein Raum alias kann man sich wie eine Verknüpfung zur Raum ID vorstellen. `#messenger-de:matrix.org`
