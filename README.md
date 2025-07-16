@@ -288,7 +288,7 @@ Vorgehensweise:
 #### Raum-ID
 Eine Raum-ID ist ein beliebige Zeichenkette. 
 <details>
-  <summary>Zusammensetzung der Raum-ID in Matirix Räumen mit der Version kleiner 12</summary>
+  <summary>Zusammensetzung der Raum-ID in Matrix Räumen mit der Version kleiner 12</summary>
 	In Matrix Räumen mit die Version kleiner 12 sind, ist diese oft so bekannt `!jqjYAhOIRvqbLqqsQs:matrix.org`.
 	Diese Raum-ID alleine kann laut Matrix-Spezifikationen NICHT zum Beitreten genutzt werden. Denn dies ist eigentlich nur eine Zeichenkette.
 	Das matrix.org ist in diesem Fall KEINE Hilfe ist, liegt daran, dass sie genutzt wurde um sicherstellen zu können, dass die Raum-ID einzigartig ist.
