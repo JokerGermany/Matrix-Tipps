@@ -286,14 +286,18 @@ Vorgehensweise:
 
 ### Kleine Raumlehre
 #### Raum-ID
-Eine Raum-ID ist ein beliebige Zeichenkette. Im "normalen" Matrix ist diese oft so bekannt `!jqjYAhOIRvqbLqqsQs:matrix.org`.
-Diese Raum-ID alleine kann laut Matrix-Spezifikationen NICHT zum beitreten genutzt werden. Denn dies ist eigentlich nur eine Zeichenkette.
-Das matrix.org ist in diesem Fall KEINE Hilfe ist, liegt daran, dass sie genutzt wird um sicherstellen zu können, dass die Raum-ID einzigartig ist.
-(Man würde sehr gerne andere Raum-IDs ohne Servernamen nutzen, aber bisher fehlt das Genie das dafür sorgen kann, dass die Raum-IDs einzigartig ist.)
-Es kann gut sein, das Server ein beitreten zulassen, wenn Ihnen die Raum-ID bekannt ist, dies ist aber KEINE Matrix-Spezifikation.
-Der Grund ist relativ einfach erklärt:
-Man stelle sich vor alle matrix.org User verlassen diesen Raum und Matrix.org vergisst diesen Raum. Die Raum-ID bleibt weiterhin `!jqjYAhOIRvqbLqqsQs:matrix.org`, hat aber nichts mit matrix.org zu tun.
-In diesem Fall kann auch matrix.org dem Raum nicht mehr über die ID beitreten! 
+Eine Raum-ID ist ein beliebige Zeichenkette. 
+<details>
+  <summary>Zusammensetzung der Raum-ID in Matirix Räumen mit der Version kleiner 12</summary>
+	In Matrix Räumen mit die Version kleiner 12 sind, ist diese oft so bekannt `!jqjYAhOIRvqbLqqsQs:matrix.org`.
+	Diese Raum-ID alleine kann laut Matrix-Spezifikationen NICHT zum Beitreten genutzt werden. Denn dies ist eigentlich nur eine Zeichenkette.
+	Das matrix.org ist in diesem Fall KEINE Hilfe ist, liegt daran, dass sie genutzt wurde um sicherstellen zu können, dass die Raum-ID einzigartig ist.
+	(Mit Raum Version 12 wird SHA-256 genutzt und man geht davon aus, dass es SHA-256 Kollisionen selten sind.)
+	Es kann gut sein, das Server ein beitreten zulassen, wenn Ihnen die Raum-ID bekannt ist, dies ist aber KEINE Matrix-Spezifikation.
+	Der Grund ist relativ einfach erklärt:
+	Man stelle sich vor alle matrix.org User verlassen diesen Raum und Matrix.org vergisst diesen Raum. Die Raum-ID bleibt weiterhin `!jqjYAhOIRvqbLqqsQs:matrix.org`, hat aber nichts mit matrix.org zu tun.
+	In diesem Fall kann auch matrix.org dem Raum nicht mehr über die ID beitreten! 
+</details>
 Raum-IDs werden nutzbar über die via Parameter:
 `https://matrix.to/#/!jqjYAhOIRvqbLqqsQs:matrix.org/$lR8h_rVYw1S5A1J8vmSz2i6kvzWR6jghS3MQMxCTjNA?via=matrix.org&via=tchncs.de&via=4d2.org`
 Möchte ein User den Raum betreten und der Server kennt den Raum nicht, versucht er einen Server aus der via Parametern zu fragen. Das beitreten klappt also nur dann, wenn mindestens ein Server aus den via Parametern erreichbar ist.
